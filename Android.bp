@@ -1,0 +1,28 @@
+// Alch3myOS Android 17 Bug Report & Logs Collector
+android_app {
+    name: "Alch3myBugReport",
+
+    srcs: ["src/**/*.kt"],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+    privileged: true,
+
+    static_libs: [
+        "androidx.core_core",
+    ],
+
+    required: ["sysconfig-alch3my-bugreport.xml"],
+
+    optimize: {
+        enabled: false,
+    },
+}
+
+prebuilt_etc {
+    name: "sysconfig-alch3my-bugreport.xml",
+    src: "sysconfig-alch3my-bugreport.xml",
+    sub_dir: "sysconfig",
+    system_ext_specific: true,
+}

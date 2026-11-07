@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- Whitelist Alch3myOS BugReport app for BugreportManager full dumps -->
+    <bugreport-whitelisted package="org.alch3my.bugreport" />
+
+    <!-- Install in main full users and profiles, exclude from clone profiles -->
+    <install-in-user-type package="org.alch3my.bugreport">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+</config>

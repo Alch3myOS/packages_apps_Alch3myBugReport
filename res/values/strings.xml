@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alch3myOS Feedback</string>
+    <string name="settings_entry_title">Alch3myOS Bug Report</string>
+    <string name="settings_entry_summary">Record system logs and send feedback to Alch3myOS maintainers</string>
+    <string name="tile_label">Record Bug</string>
+    <string name="tile_recording">Recording…</string>
+    <string name="tile_tap_to_record">Tap to record logs</string>
+    <string name="channel_recording">Log Recording</string>
+    <string name="channel_restart">Unexpected Restarts</string>
+    <string name="notif_recording">Recording Alch3myOS logs. Reproduce your issue, then tap Stop.</string>
+    <string name="notif_restart">Alch3myOS restarted unexpectedly. Send a kernel/watchdog report?</string>
+    <string name="mark_moment">Mark the moment</string>
+    <string name="stop_review">Stop and review</string>
+    <string name="title_hint">What went wrong?</string>
+    <string name="steps_hint">Steps to reproduce the issue…</string>
+    <string name="record">Start Recording</string>
+    <string name="send">Send Bug Report</string>
+    <string name="sending">Uploading bug report…</string>
+    <string name="sent">Report sent! Alch3myOS Report ID: %1$s</string>
+    <string name="send_failed">Direct upload failed. Please share the zip file instead.</string>
+    <string name="send_limit">Daily report limit reached for this phone. Share via sheet instead.</string>
+    <string name="share_subject">Alch3myOS Bug Report %1$s</string>
+    <string name="crash_title">%1$s crashed on Alch3myOS</string>
+    <string name="restart_title">Alch3myOS restart: %1$s</string>
+</resources>
